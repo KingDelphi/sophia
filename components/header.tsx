@@ -18,6 +18,7 @@ import { Session } from '@/lib/types'
 
 // Importamos la imagen DelphiumLogo.png
 import DelphiumLogo from '@/DelphiumLogo.png'
+import Image from 'next/image';
 
 async function UserOrLogin() {
   const session = (await auth()) as Session
@@ -37,7 +38,7 @@ async function UserOrLogin() {
         </Link>
       )}
       <div className="flex items-center">
-        <Image src={DelphiumLogo} alt="Delphium Logo" className="h-8 mr-2" width={32} height={32} />
+        <Image src={DelphiumLogo} alt="Delphium Logo" width={32} height={32} />
         <IconSeparator className="size-6 text-muted-foreground/50" />
         {session?.user ? (
           <UserMenu user={session.user} />
