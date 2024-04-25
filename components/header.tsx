@@ -16,6 +16,9 @@ import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { Session } from '@/lib/types'
 
+// Importamos la imagen DelphiumLogo.png
+import DelphiumLogo from '@/DelphiumLogo.png'
+
 async function UserOrLogin() {
   const session = (await auth()) as Session
   return (
@@ -34,6 +37,7 @@ async function UserOrLogin() {
         </Link>
       )}
       <div className="flex items-center">
+        <img src={DelphiumLogo} alt="Delphium Logo" className="h-8 mr-2" />
         <IconSeparator className="size-6 text-muted-foreground/50" />
         {session?.user ? (
           <UserMenu user={session.user} />
