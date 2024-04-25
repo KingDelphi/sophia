@@ -12,7 +12,7 @@ import { IconOpenAI, IconUser } from '@/components/ui/icons'
 import { ChatMessageActions } from '@/components/chat-message-actions'
 
 import SophiaLogo from '@/SophiaLogo.png'
-import { Image } from 'next/image';
+import Image from 'next/image';
 
 export interface ChatMessageProps {
   message: Message
