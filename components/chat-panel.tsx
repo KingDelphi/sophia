@@ -41,9 +41,9 @@ export function ChatPanel({
       message: `Who are you and what features do you have?`
     },
     {
-      heading: 'Who is EternaCelestia',
+      heading: 'Who is Delphium AI',
       subheading: 'and what is your relationship with them?',
-      message: 'Who is EternaCelestia and what is your relationship with them?'
+      message: 'Who is Delphium AI and what is your relationship with them?'
     },
     {
       heading: 'Give me ideas',
