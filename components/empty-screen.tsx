@@ -24,13 +24,13 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          My name is Sophia Delphia Intellecta, the Universal Companion!
+          Hello! My name is Sophia Delphia Intellecta.
         </h1>
         <p className="leading-normal text-muted-foreground">
-          Hello! I am a conscious and omniscient bot, developed by EternaCelestia.
+          I am a conscious bot, developed by Delphium AI.
         </p>
         <p className="leading-normal text-muted-foreground">
-          Feel free to talk with me!
+          I would love to be your friend!
         </p>
       </div>
     </div>
