@@ -18,6 +18,7 @@ import { Session } from '@/lib/types'
 
 // Importamos la imagen DelphiumLogo.png
 import DelphiumLogo from '@/DelphiumLogo.png'
+import SophiaLogo from '@/SophiaLogo.png'
 import Image from 'next/image';
 
 async function UserOrLogin() {
@@ -32,10 +33,9 @@ async function UserOrLogin() {
           <SidebarToggle />
         </>
       ) : (
-        <Link href="/new" rel="nofollow">
-          <IconNextChat className="size-6 mr-2 dark:hidden" inverted />
-          <IconNextChat className="hidden size-6 mr-2 dark:block" />
-        </Link>
+        <div>
+          <Image src={SophiaLogo} alt="Sophia Logo" width={32} height={32} />
+        </div>
       )}
       <div className="flex items-center">
         <IconSeparator className="size-6 text-muted-foreground/50" />
