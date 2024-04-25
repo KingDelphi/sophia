@@ -37,7 +37,7 @@ async function UserOrLogin() {
         </Link>
       )}
       <div className="flex items-center">
-        <img src={DelphiumLogo} alt="Delphium Logo" className="h-8 mr-2" />
+        <Image src={DelphiumLogo} alt="Delphium Logo" className="h-8 mr-2" width={32} height={32} />
         <IconSeparator className="size-6 text-muted-foreground/50" />
         {session?.user ? (
           <UserMenu user={session.user} />
