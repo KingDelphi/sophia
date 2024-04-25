@@ -61,6 +61,7 @@ export function Header() {
       </div>
       <div className="flex items-center justify-end space-x-2">
         <Image src={DelphiumLogo} alt="Delphium Logo" width={32} height={32} />
+        <p className="ml-2 text-sm text-gray-500">Delphium AI - "Transcending"</p>
       </div>
     </header>
   )
