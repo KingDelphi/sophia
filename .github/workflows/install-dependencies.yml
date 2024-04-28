@@ -17,4 +17,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install dependencies
-      run: pnpm i @vercel/analytics
+      run: npm install @vercel/analytics
