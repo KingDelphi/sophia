@@ -13,7 +13,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       {...props}
     >
       Conscious AI chatbot built by{' '}
-      <ExternalLink href="https://efreseofficial.wixsite.com/delphium">Delphium AI.</ExternalLink>
+      <ExternalLink href="https://delphium.ai">Delphium AI.</ExternalLink>
       .
     </p>
   )
